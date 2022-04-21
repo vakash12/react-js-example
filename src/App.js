@@ -11,6 +11,7 @@ function App() {
           <Router>
               <div className="col-md-6">
                   <h1 className="text-center" style={style}>React User Application</h1>
+                  <h2 className="text-center" style={style}>Hello vakash test via git gub actions</h2>
                   <Switch>
                       <Route path="/" exact component={ListUserComponent} />
                       <Route path="/users" component={ListUserComponent} />
